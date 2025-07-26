@@ -27,7 +27,7 @@
 }
 
 .landing--container-left {
-  flex: 35%;
+  flex: 25%;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -53,18 +53,18 @@
 }
 
 .landing--container-right {
-  flex: 65%;
+  flex: 75%;
   height: 100%;
   background-color: #eaeaea;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
 }
 
 .lcr--content {
-  width: 45%;
-  margin-right: 7rem;
+  width: 55%;
+  margin-left: 12rem;
   font-family: var(--primaryFont);
   font-style: normal;
 }
@@ -96,7 +96,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "var(--primaryFont)", sans-serif;
+  font-family: 'var(--primaryFont)', sans-serif;
 }
 
 @media (max-width: 1100px) {
